@@ -1,5 +1,5 @@
 const firstnumber = +prompt("enter the first number")
-const operator= prompt("enter the operator")
+const operator = prompt("enter the operator")
 const secondnumber = +prompt("enter the second number")
 
 if (isNaN(firstnumber) || isNaN(secondnumber) ) {
