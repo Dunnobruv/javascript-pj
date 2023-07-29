@@ -6,7 +6,7 @@ const Product = {
     addtocart: function () {
         console.log("the product has been added your cart")
     },
-    removefromecart: function () {
+    removefromcart: function () {
         console.log("the product has been removed from your cart")
     }
 }
