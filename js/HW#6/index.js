@@ -18,8 +18,3 @@ persons.forEach((item, index) => {
     ${index + 1}- <span>${item.name}</span> <span>${item.age}</span>
     </li>`
 })
-
-function appendObjTo(thatArray, newObj) {
-    const frozenObj = Object.freeze(newObj);
-    return Object.freeze(thatArray.concat(frozenObj));
-  }
